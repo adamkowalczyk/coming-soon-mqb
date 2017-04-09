@@ -5,27 +5,29 @@
 
 body {
     background-color: #ffffff;
+    font-family: 'Abel', sans-serif;
 }
 
 .container {
     text-align: center;
-    padding: 50px 3%;
+    padding: 25px 3%;
     height: 100vh;
 }
 
 
 .title {
-    font-size: 46px;
+    font-size: 54px;
     font-weight: bold;
+    margin: 0 auto;
 
     @media(max-width: 650px) {
-        font-size: 30px;
+        font-size: 36px;
     }
 }
 
 .logo {
     position: relative;
-    margin: 25px auto;
+    margin: -10px auto 15px;
     width: 500px;
     height: 500px;
     background-image: url('/assets/svg/logo.svg');
@@ -42,7 +44,7 @@ body {
 
 .logo-text {
     position: absolute;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     top: 0;
     bottom: 0;
@@ -50,10 +52,15 @@ body {
     right: 0;
     margin: auto;
     width: 195px;
-    height: 24px;
+    height: 36px;
 
     @media(max-width: 650px) {
-        font-size: 16px;
-        height: 16px;
+        font-size: 24px;
+        height: 24px;
     }
+}
+
+.strap,
+.date {
+    font-size: 24px;
 }
