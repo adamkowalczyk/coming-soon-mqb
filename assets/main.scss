@@ -3,6 +3,57 @@
 
 @import 'minima';
 
+body {
+    background-color: #ffffff;
+}
+
 .container {
-    background-color: red;
+    text-align: center;
+    padding: 50px 3%;
+    height: 100vh;
+}
+
+
+.title {
+    font-size: 46px;
+    font-weight: bold;
+
+    @media(max-width: 650px) {
+        font-size: 30px;
+    }
+}
+
+.logo {
+    position: relative;
+    margin: 25px auto;
+    width: 500px;
+    height: 500px;
+    background-image: url('/assets/svg/logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 400%;
+
+    @media(max-width: 650px) {
+        width: 300px;
+        height: 300px;
+        background-size: 400%;
+    }
+}
+
+.logo-text {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 195px;
+    height: 24px;
+
+    @media(max-width: 650px) {
+        font-size: 16px;
+        height: 16px;
+    }
 }
